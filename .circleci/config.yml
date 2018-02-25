@@ -16,7 +16,6 @@ jobs:
       - restore_cache:
           key: v1-npm-deps-{{ checksum "package.json" }}
       - run: npm install
-      - run: npm test
       - run: npm run build
       - run: npm run export
       - run: npm run deploy
