@@ -1,9 +1,12 @@
 import * as React from 'react'
+import {Container} from 'semantic-ui-react'
+import {PersonalLinks} from './PersonalLinks'
+import {Projects} from './Projects'
+import css from './module.css'
 
 export const Home = props =>
-  <div>
-    <a href="https://medium.com/@deptno">블로그(Medium)</a>
-    <a href="https://deptno.github.io">블로그</a>
-    <a href="https://github.com/deptno">Github</a>
-    <a href="https://resume.bglee.me">이력서(개인 이력 관리용)</a>
-  </div>
+  <Container>
+    <PersonalLinks/>
+    <div className={css.top_padder} />
+    <Projects/>
+  </Container>

@@ -35,6 +35,7 @@ export default class extends Document {
         <meta property="twitter:image" content={SITE_IMAGE}/>
 
         <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.12/semantic.min.css"/>
+        <link href="//fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans" rel="stylesheet" type="text/css"/>
         <link
           href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
           rel="stylesheet"

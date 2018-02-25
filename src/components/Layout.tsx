@@ -2,12 +2,15 @@ import * as React from 'react'
 import {Header} from './Header'
 import {Footer} from './Footer'
 import Head from 'next/head'
+import {Container, Divider} from 'semantic-ui-react'
+import css from './module.css'
+import './style.css'
 
 export class Layout extends React.Component<{}, {}> {
   render() {
     const {children} = this.props
     return (
-      <div>
+      <Container className={css.top_padder}>
         <Head>
           <meta
             name="viewport"
@@ -15,11 +18,12 @@ export class Layout extends React.Component<{}, {}> {
           />
         </Head>
         <Header/>
-        <main>
+        <Divider/>
+        <main className={css.top_padder}>
           {children}
         </main>
         <Footer/>
-      </div>
+      </Container>
     )
   }
 }

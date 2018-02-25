@@ -1,10 +1,12 @@
+.top_padder {
+  padding-top: 15px;
+}
 .footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  color: #888888;
-  background-color: #3c4146;
+  color: #333333;
   border-top-color: #202326;
   padding: 15px 0;
-  font-size: 0.7rem;
+  font-size: 1rem;
 }
