@@ -9,7 +9,7 @@ export const Projects = props =>
         title: 'Dynamon - 다이나모디비 GUI 클라이언트',
         href: 'https://github.com/deptno/dynamon/release'
       }}
-      description="다이나모디 디비의 데이터를 편하게 보자."
+      description="다이나모 디비의 데이터를 편하게 보자."
       repos={[
         {title:'Gihtub',href:'https://github.com/deptno/dynamon'},
       ]}
