@@ -1,4 +1,3 @@
-import './tachyons.amp.css'
 import * as React from 'react'
 
 export default ({Component, pageProps}) => {
