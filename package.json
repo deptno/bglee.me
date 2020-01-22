@@ -13,14 +13,7 @@
     "export": "next export",
     "deploy": "aws s3 sync out s3://www.bglee.me --delete",
     "invalidation": "aws cloudfront create-invalidation --distribution-id E2VUL6JZ3M3UXX --paths \"/*\"",
-    "analyze": "NODE_ENV=production ANALYZE=true next build",
     "start": "next start",
-    "test": "jest",
-    "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook",
-    "ts:check": "tsc --noEmit",
     "build.tachyons.amp": "curl https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css | DEBUG=* npx strip-css@latest -a 'media' -r '^v-' -r 'dark-' -r 'light-' -r 'lightest-' -r 'washed-' -r '-025' -r '-0125' -r 'grow' -r 'dim' -r 'code' -r 'courier' -r 'helvetica' -r 'avenir' -r 'athelas' -r 'georgia' -r 'times' -r 'bodoni' -r 'calisto' -r 'garamond' -r 'baskerville' -r '^fl-' -r '^measture' -r 'b--dotted' -r 'pill' -r '^shadow' -r '^striped' -r '^debug' > src/pages/tachyons.amp.css"
   },
   "dependencies": {
@@ -29,6 +22,7 @@
     "react-dom": "^16.12.0"
   },
   "devDependencies": {
+    "@types/node": "^13.1.8",
     "@types/react": "^16.9.18"
   }
 }
