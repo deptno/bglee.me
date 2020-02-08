@@ -1,10 +1,20 @@
 import * as React from 'react'
+import {NextSeo} from 'next-seo/lib'
+import {seo} from '../constant'
 
 export const config = {amp: true}
 
 export default () => {
   return (
     <div className="ph3 black-70">
+      <style jsx>
+        {/*language=css*/ `
+            li:target {
+                background: coral;
+            }
+        `}
+      </style>
+      <NextSeo {...seo} />
       <h2>contact</h2>
       <ul className="list pl0">
         <li>
@@ -38,13 +48,19 @@ export default () => {
       <h2>pet</h2>
       <ul className="list pl0">
         <li id="petitions">
-          <a className="link black-70" href="https://deptno.github.io/petitions" target="_blank">deptno.github.io/petitions</a>
+          <a className="link black-70" href="https://deptno.github.io/petitions" target="_blank">
+            deptno.github.io/petitions
+          </a>
         </li>
-        <li>
-          <a className="link black-70" href="https://deptno.github.io/abandoned-animals" target="_blank">deptno.github.io/abandoned-animals</a>
+        <li id="abandoned-animals">
+          <a className="link black-70" href="https://deptno.github.io/abandoned-animals" target="_blank">
+            deptno.github.io/abandoned-animals
+          </a>
         </li>
-        <li>
-          <a className="link black-70" href="https://deptno.github.io/map-subway-storage" target="_blank">deptno.github.io/map-subway-storage</a>
+        <li id="map-subway-storage">
+          <a className="link black-70" href="https://deptno.github.io/map-subway-storage" target="_blank">
+            deptno.github.io/map-subway-storage
+          </a>
         </li>
       </ul>
       <h2>project</h2>
