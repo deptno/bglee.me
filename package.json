@@ -17,7 +17,7 @@
     "build.tachyons.amp": "curl https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css | DEBUG=* npx strip-css@latest -a 'media' -r '^v-' -r 'dark-' -r 'light-' -r 'lightest-' -r 'washed-' -r '-025' -r '-0125' -r 'grow' -r 'dim' -r 'code' -r 'courier' -r 'helvetica' -r 'avenir' -r 'athelas' -r 'georgia' -r 'times' -r 'bodoni' -r 'calisto' -r 'garamond' -r 'baskerville' -r '^fl-' -r '^measture' -r 'b--dotted' -r 'pill' -r '^shadow' -r '^striped' -r '^debug' > src/pages/tachyons.amp.css"
   },
   "dependencies": {
-    "next": "^9.2.0",
+    "next": "^9.3.2",
     "next-seo": "^4.1.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
