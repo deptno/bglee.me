@@ -1,6 +1,6 @@
 export const const_site_url = 'https://bglee.me'
 export const const_site_title = 'Bonggyun Lee'
-export const const_site_description = `fullstack enginner / ts, node, next.js, graphql, aws(especially dynamodb, serverless), terraform`
+export const const_site_description = `ts, node, next.js, graphql, dynamodb, serverless, terraform, postgresql, swift, swiftui, kubernetes, procreate, blender / 요즘은 그림 그림`
 export const seo = {
   title      : const_site_title,
   description: const_site_description,
