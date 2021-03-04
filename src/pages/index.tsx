@@ -36,6 +36,11 @@ export default () => {
       <h2>writing</h2>
       <ul className="list pl0">
         <li>
+          <a className="link black-70" href="https://googit.io/user/ap-northeast-2:c03f8bf0-992e-48a8-93b6-15787a0fc96f" target="_blank">
+            googit.io/user/ap-northeast-2:c03f8bf0-992e-48a8-93b6-15787a0fc96f
+          </a>
+        </li>
+        <li>
           <a className="link black-70" href="https://deptno.github.io" target="_blank">deptno.github.io</a>
         </li>
         <li>
