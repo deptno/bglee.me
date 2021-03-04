@@ -62,11 +62,6 @@ export default () => {
       <h2>pet</h2>
       <ul className="list pl0">
         <li id="petitions">
-          <a className="link black-70" href="https://github.com/deptno/dynamon" target="_blank">
-            dynamon
-          </a>
-        </li>
-        <li id="petitions">
           <a className="link black-70" href="https://deptno.github.io/petitions" target="_blank">
             deptno.github.io/petitions
           </a>
@@ -79,6 +74,11 @@ export default () => {
         <li id="map-subway-storage">
           <a className="link black-70" href="https://deptno.github.io/map-subway-storage" target="_blank">
             deptno.github.io/map-subway-storage
+          </a>
+        </li>
+        <li id="petitions">
+          <a className="link black-70" href="https://github.com/deptno/dynamon" target="_blank">
+            dynamon
           </a>
         </li>
       </ul>
